@@ -1,0 +1,99 @@
+#topo {
+    text-align: center; /*centralizar */
+}
+
+
+#conteudo {
+    float: right; /* posicao na tela*/
+    width: 740px; /*largura da área*/
+}
+
+
+#banner {
+    top: 0;/*centralizar */
+    right: 0;  /*centralizar */
+    position: fixed;/*fixar banner do site*/
+}
+
+
+#banner, #titulo {
+    text-align: center; /*centralizar texto*/
+}
+
+
+#tb-nutrientes {
+    width: 40%;
+    margin-right: auto;/*área de margem nos quatro lados do elemento*/
+    margin-left: auto;  /* Centraliza a div horizontalmente */
+    border: 1px solid black; /*borda da imagem*/
+}
+
+
+#tb-nutrientes th {
+    background-color: wheat; 
+}
+
+
+body {
+    background-color: purple; /*cor do site*/
+    font-family: Arial, Helvetica, sans-serif; /*pode escolher qual fonte a pagina tera, utilizando google fonts*/
+    font-style: italic; /* none, underline, overline, line-through, blink*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 940px;
+}
+
+
+figure {
+    background-color: wheat;
+    width: 550px; /* tamanho do box criado em volta do elemento */
+    margin-left: auto; /* centraliza o elemento na horizontal */
+    margin-right: auto; /* centraliza o elemento na horizontal */
+    text-align: center; /* centraliza o conteúdo dentro do elemento */
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black; /* cria uma borda preta na imagem */
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.7); /* cria uma leve sombra transparente em volta da borda do elemento */
+    transform: rotate(-0.5deg); /* correção: removido o prefixo -webkit- e corrigido o valor da rotação */
+}
+
+
+h2 {
+    background-color: orange;
+    padding-top: 5px; /* disancia dos cantos*/
+    padding-left: 5px;  /* Espaçamento interno */
+    padding-bottom: 5px;
+    padding-right: 5px;
+    color: wheat;
+    border-radius: 15px; /* arredonda as quinas*/
+    background: linear-gradient(to bottom, #9c8f67, pink); /* degradê da cor */
+}
+
+
+nav {
+    float: left;
+    width: 200px;
+}
+
+
+nav ul li{
+    background-color: wheat;
+    margin-bottom: 3px; /* Espaçamento abaixo */
+}
+
+
+nav ul li {
+    text-decoration-line: none;
+    color: black;
+}
+
+
+nav ul{
+    list-style: none; /*tira as bolinha da lista UL8*/
+    padding-left: 0; /* tira o espaço sobrando das bolinhas da lista UL*/
+}
+
+
+nav ul li:hover{
+    background-color: pink;
+}
